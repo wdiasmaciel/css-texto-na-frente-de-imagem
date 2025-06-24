@@ -1,0 +1,37 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.cartao {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 1rem auto;
+    border: 2px solid rgb(195, 194, 194);
+    box-shadow: .3rem .3rem 0.3rem 0.03rem rgb(181, 180, 180);
+    padding: 1rem;
+}
+
+.painel {
+    position: relative;
+    border: 2px solid rgb(243, 7, 7);
+}
+
+.imagem {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.sobreposicao {
+    position: absolute;
+    bottom: 0; /* Ou top, ou center. */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Preto com 30% de opacidade */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
