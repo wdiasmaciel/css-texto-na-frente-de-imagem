@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media screen and (max-width: 712px) {
+            h3 {
+                color: red;
+            }
+        }
+
+        @media screen and (max-width: 361px) {
+            h3 {
+                color: blue;
+            }
+        }
+
+        @media screen and (max-width: 180px) {
+            h3 {
+                display: none;
+            }
+        }
+
+        .cartao {
+            color: green;
+
+            @media screen and (max-width: 712px) {
+                color: red;
+            }
+
+            @media screen and (max-width: 361px) {
+                color: blue;
+                background-color: yellow;
+            }
+
+            @media screen and (max-width: 180px) {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Cartão Postal</h3>
+    <div class="cartao">Igreja da Pampulha - Belo Horizonte, MG</div>
+</body>
+
+</html>
