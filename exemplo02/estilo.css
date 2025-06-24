@@ -30,12 +30,19 @@
 
 .sobreposicao {
     position: absolute;
-    bottom: 0; /* Ou top, ou center. */
+    bottom: 0;
+    /* Ou top, ou center. */
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3); /* Preto com 30% de opacidade */
+    background-color: rgba(0, 0, 0, 0.3);
+    /* Preto com 30% de opacidade */
     color: white;
     padding: 1rem;
     text-align: center;
-    backdrop-filter: blur(0.1rem); /* Opcional, para dar um toque sofisticado. */
+    backdrop-filter: blur(0.1rem);
+    /* Opcional, para dar um toque sofisticado. */
+}
+
+.sobreposicao:hover {
+    backdrop-filter: blur(0rem);
 }
